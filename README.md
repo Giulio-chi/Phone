@@ -1,1 +1,1 @@
-Inherit BaseApp to build your own games and then add them to phone_apps in phone.py to add them to the home. Be creative and for another challenge: try not to use other images in the game, instead work just with pygame draws. I also added Pong Master as an example to catch the style.
+Inherit from BaseApp to build your own games and then add them to phone_apps in phone.py to add them to the home. Be creative and for another challenge: try not to use other images in the game, instead work just with pygame draws. I also added Pong Master as an example to catch the style.
