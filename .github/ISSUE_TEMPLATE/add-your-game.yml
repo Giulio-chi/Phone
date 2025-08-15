@@ -1,0 +1,33 @@
+name: Add Your Game
+description: Submit your game for the Python Phone
+title: "[Game Submission]: "
+labels: ["game-submission"]
+body:
+  - type: input
+    id: game_name
+    attributes:
+      label: Game Name
+      description: What is your game's title?
+      placeholder: My Awesome Game
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A short description of your game.
+      placeholder: It's a puzzle game about...
+    validations:
+      required: true
+  - type: textarea
+    id: how_to_run
+    attributes:
+      label: How to Run
+      description: Special instructions for installing or running your game.
+      placeholder: Place the folder into the 'apps' directory and run...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        **Attach your `.zip` or `.py` file below after creating this issue.**
